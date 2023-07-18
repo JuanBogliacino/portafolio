@@ -9,6 +9,14 @@
     }
 }
 
+body {
+    background-color: #0a192f;
+}
+
+.font-tektur {
+    font-family: 'Tektur', cursive;
+}
+
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
