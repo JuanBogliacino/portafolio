@@ -2,6 +2,7 @@ import ReduxCart from '../assets/projects/redux-cart.png'
 import QuizApp from '../assets/projects/quiz-app.png'
 import Pokedex from '../assets/projects/pokedex.png'
 import AppClima from '../assets/projects/app-clima.png'
+import EcommerceCars from '../assets/projects/e-commerce-autos.png'
 import Projects from './Projects'
 
 const Work = () => {
@@ -17,11 +18,11 @@ const Work = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                 {/* Grid Item */}
+                <Projects img={EcommerceCars} name='E-commerce Cars' serCODE='https://github.com/JuanBogliacino/e-commerce-autos' />
                 <Projects img={ReduxCart} live name='Redux Cart' serCODE='https://github.com/JuanBogliacino/redux-cart' srcLIVE='https://juanbogliacino.github.io/redux-cart/' />
                 <Projects img={QuizApp} live name='Quiz App' serCODE='https://github.com/JuanBogliacino/quiz-app' srcLIVE='https://64b606a842d1e213eb391e71--benevolent-creponne-0d0df9.netlify.app/' />
                 <Projects img={Pokedex} live name='Pokedex' serCODE='https://github.com/JuanBogliacino/pokedex' srcLIVE='https://juanbogliacino.github.io/pokedex/' />
                 <Projects img={AppClima} name='App Clima' serCODE='https://github.com/JuanBogliacino/app-clima' />
-
             </div>
         </div>
     </div>
