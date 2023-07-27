@@ -27,7 +27,7 @@ const Contact = () => {
   }  
 
   return (
-    <div name='contact' className='w-full bg-[#0a192f] flex justify-center items-center p-4 pt-[120px]'>
+    <div name='contact' className='contact w-full bg-[#0a192f] flex justify-center items-center p-4 pt-[120px]'>
         <form onSubmit={handleSubmit} method='POST' action="https://getform.io/f/393ce267-5bc1-4d74-833b-c56536f01ddd" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-green-600 text-gray-300 font-tektur'>Contact</p>

@@ -32,6 +32,10 @@ body {
             hsla(242, 74%, 61%, 0.8)
         )!important;
     }
+
+    .contact {
+        padding-top: 220px;
+    }
 }
 
 @media (max-width: 640px) {

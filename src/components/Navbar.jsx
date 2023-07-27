@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
-import Logo from '../assets/logo.png'
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
