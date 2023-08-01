@@ -21,7 +21,7 @@ const Work = () => {
 
                 {/* Grid Item */}
                 <Projects img={EcommerceCars} name='E-commerce Cars' serCODE='https://github.com/JuanBogliacino/e-commerce-autos' />
-                <Projects img={ReduxCart} live name='Redux Cart' serCODE='https://github.com/JuanBogliacino/redux-cart' srcLIVE='https://juanbogliacino.github.io/redux-cart/' />
+                <Projects img={ReduxCart} live name='Redux Cart' serCODE='https://github.com/JuanBogliacino/redux-cart' srcLIVE='https://redux-cart10.netlify.app/' />
                 <Projects img={AppMovies} live name='Search Movies App' serCODE='https://github.com/JuanBogliacino/search-movies-app' srcLIVE='https://search-movies-app10.netlify.app/' />
                 <Projects img={TaskList} live name='Task List' serCODE='https://github.com/JuanBogliacino/Task-List' srcLIVE='https://task-list10.netlify.app/' />
                 <Projects img={QuizApp} live name='Quiz App' serCODE='https://github.com/JuanBogliacino/quiz-app' srcLIVE='https://64b606a842d1e213eb391e71--benevolent-creponne-0d0df9.netlify.app/' />
