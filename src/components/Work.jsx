@@ -1,10 +1,12 @@
+// import QuizApp from '../assets/projects/quiz-app.png'
+
 import ReduxCart from '../assets/projects/redux-cart.png'
-import QuizApp from '../assets/projects/quiz-app.png'
 import Pokedex from '../assets/projects/pokedex.png'
 import AppClima from '../assets/projects/app-clima.png'
 import EcommerceCars from '../assets/projects/e-commerce-autos.png'
 import AppMovies from '../assets/projects/app-movies.png'
 import TaskList from '../assets/projects/task-list.png'
+import UsersList from '../assets/projects/users-list.png'
 import Projects from './Projects'
 
 const Work = () => {
@@ -22,10 +24,10 @@ const Work = () => {
                 {/* Grid Item */}
                 <Projects img={EcommerceCars} name='E-commerce Cars' serCODE='https://github.com/JuanBogliacino/e-commerce-autos' />
                 <Projects img={ReduxCart} live name='Redux Cart' serCODE='https://github.com/JuanBogliacino/redux-cart' srcLIVE='https://redux-cart10.netlify.app/' />
-                <Projects img={AppMovies} live name='Search Movies App' serCODE='https://github.com/JuanBogliacino/search-movies-app' srcLIVE='https://search-movies-app10.netlify.app/' />
-                <Projects img={TaskList} live name='Task List' serCODE='https://github.com/JuanBogliacino/Task-List' srcLIVE='https://task-list10.netlify.app/' />
-                <Projects img={QuizApp} live name='Quiz App' serCODE='https://github.com/JuanBogliacino/quiz-app' srcLIVE='https://64b606a842d1e213eb391e71--benevolent-creponne-0d0df9.netlify.app/' />
                 <Projects img={Pokedex} live name='Pokedex' serCODE='https://github.com/JuanBogliacino/pokedex' srcLIVE='https://pokedex10.netlify.app/' />
+                <Projects img={TaskList} live name='Task List' serCODE='https://github.com/JuanBogliacino/Task-List' srcLIVE='https://task-list10.netlify.app/' />
+                <Projects img={UsersList} live name='Users List' serCODE='https://github.com/JuanBogliacino/Users-List' srcLIVE='https://users-list10.netlify.app/' />
+                <Projects img={AppMovies} live name='Search Movies App' serCODE='https://github.com/JuanBogliacino/search-movies-app' srcLIVE='https://search-movies-app10.netlify.app/' />
                 <Projects img={AppClima} name='App Clima' serCODE='https://github.com/JuanBogliacino/app-clima' />
             </div>
         </div>
