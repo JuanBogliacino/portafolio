@@ -6,6 +6,9 @@ import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import SQL from '../assets/sql.png';
+import GIT from '../assets/git.png'
+import Express from '../assets/express.png'
+import Redux from '../assets/redux.png'
 
 const Skills = () => {
   return (
@@ -35,16 +38,28 @@ const Skills = () => {
                     <p className='my-4'>REACT</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] duration-500'>
-                    <img className='w-20 mx-auto' src={GitHub} alt="GITHUB icon" />
-                    <p className='my-4'>GITHUB</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] duration-500'>
                     <img className='w-20 mx-auto' src={Node} alt="NODE icon" />
                     <p className='my-4'>NODE JS</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] duration-500'>
+                    <img className='w-36 mx-auto' src={Express} alt="EXPRESS icon" />
+                    <p className='my-4'>EXPRESS</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] duration-500'>
                     <img className='w-20 mx-auto' src={SQL} alt="SQL icon" />
                     <p className='my-4'>SQL</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] duration-500'>
+                    <img className='w-20 mx-auto' src={GIT} alt="GIT icon" />
+                    <p className='my-4'>GIT</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] duration-500'>
+                    <img className='w-20 mx-auto' src={GitHub} alt="GITHUB icon" />
+                    <p className='my-4'>GITHUB</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] duration-500'>
+                    <img className='w-20 mx-auto' src={Redux} alt="REDUX icon" />
+                    <p className='my-4'>REDUX</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] duration-500'>
                     <img className='w-20 mx-auto' src={Tailwind} alt="TAILWIND icon" />
