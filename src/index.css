@@ -24,6 +24,14 @@ body {
     height: 250px;
 }
 
+.img-container img {
+    transition: transform 0.1s ease;
+}
+
+.img-container:hover {
+    transform: scale(1.1);
+}
+
 @media (min-width: 640px) {
     .content-div:hover {
         background-image: linear-gradient(
