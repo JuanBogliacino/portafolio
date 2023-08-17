@@ -28,7 +28,7 @@ const Work = () => {
                 <Projects img={TaskList} live name='Task List' serCODE='https://github.com/JuanBogliacino/Task-List' srcLIVE='https://task-list10.netlify.app/' />
                 <Projects img={UsersList} live name='Users List' serCODE='https://github.com/JuanBogliacino/Users-List' srcLIVE='https://users-list10.netlify.app/' />
                 <Projects img={AppMovies} live name='Search Movies App' serCODE='https://github.com/JuanBogliacino/search-movies-app' srcLIVE='https://search-movies-app10.netlify.app/' />
-                <Projects img={AppClima} name='App Clima' serCODE='https://github.com/JuanBogliacino/app-clima' />
+                <Projects img={AppClima} name='Weather App ' serCODE='https://github.com/JuanBogliacino/weather-app' />
             </div>
         </div>
     </div>

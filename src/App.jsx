@@ -9,7 +9,7 @@ import Work from "./components/Work"
 function App() {
 
   return (
-    <div>
+    <>
       <Navbar />
       <Home />
       <About />
@@ -17,7 +17,7 @@ function App() {
       <Work />
       <Contact />
       <Footer />
-    </div>
+    </>
   )
 }
 
